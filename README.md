@@ -1,5 +1,5 @@
 # A survy on tool-learning
-待定：1.从总体的角度写？还是从多模态任务去写？  从可写的东西、参考文献数量、内容框架考虑
+muti-model agent
 # 〇，abstract
 
 # 一，introduction
@@ -14,6 +14,7 @@ https://arxiv.org/abs/2405.17935 四个步骤 2个范式（是否反馈）<br>
 https://arxiv.org/abs/2304.08354 四个框架 分类<br>
 
 ## 3.基础模型的能力
+推理能力（任务拆解）、上下文学习、自我调试（反馈机制）
 [Awesome-Tool-LearningAugmented Language Models: a Survey](https://arxiv.org/abs/2302.07842) 模型的推理能力和学习能力<br>
 https://arxiv.org/abs/2308.11432 模型的推理 action能力<br>
 https://openreview.net/forum?id=jh7wH2AzKK<br>
@@ -41,7 +42,7 @@ https://openreview.net/forum?id=dHng2O0Jjr  https://arxiv.org/abs/2302.04761  ap
 ## 1.对模型的处理，如何生成好的响应
 ### 1）微调
 是什么、优点、缺点、适用情况、不适用情况
-### 2）上下文
+### 2）上下文学习
 是什么、优点、缺点、适用情况、不适用情况
 ### 3）tocken融入 预测工具
 是什么、优点、缺点、适用情况、不适用情况
