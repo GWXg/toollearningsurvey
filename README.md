@@ -3,10 +3,16 @@ muti-model agent
 # 〇，abstract
 
 # 一，introduction
-# 通用篇：
+
+
+
+
+# 
 ## 1.工具的定义
 https://github.com/zorazrw/awesome-tool-llm 工具的定义+工具的能力<br>
 https://arxiv.org/pdf/2302.07842 工具与模型的集成
+
+## 2.工具学习的定义
 
 ## 2.工具使用的分类/框架/范式/步骤
 https://github.com/zorazrw/awesome-tool-llm 基本范式<br>
