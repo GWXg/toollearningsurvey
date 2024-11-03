@@ -31,7 +31,7 @@ https://www.nowpublishers.com/article/Details/CGV-110  https://openreview.net/fo
 codenav 检索内容/代码<br>
 https://openreview.net/forum?id=dHng2O0Jjr  https://arxiv.org/abs/2302.04761  api<br>
 
-## 2.工具学习的使用场景/任务分类
+## 2.工具学习的使用场景/任务分类（解决哪些问题，一般用什么方法解决这些问题）
 ### 1）日常场景 （完成日常任务，如发邮件....）
 https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf
 ### 2）AI领域场景（利用专家模型 单模态/多模态 专门的模型）
