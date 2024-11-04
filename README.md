@@ -2,7 +2,7 @@
 # 〇，abstract
 
 # 一，introduction
-
+前人研究现状、不足、本文补充内容、本文结构
 
 
 
@@ -24,6 +24,7 @@ https://openreview.net/forum?id=jh7wH2AzKK<br>
 
 三，工具学习的具体应用
 ## 1.总结工具的类型和表示方式
+基于图形界面的工具、基于程序的工具
 [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://openreview.net/forum?id=dHng2O0Jjr)
 幻觉--获取即时更新的外部信息
 增强专业知识
