@@ -53,7 +53,7 @@ https://arxiv.org/abs/2304.08354 四个框架 分类<br>
 是什么、优点、缺点、适用情况、不适用情况
 ### 3）tocken融入 预测工具
 是什么、优点、缺点、适用情况、不适用情况
-## 3.检索机制
+## 3.检索机制/选择机制
 https://arxiv.org/pdf/2203.05115<br>
 https://openreview.net/forum?id=ZTCxT2t2Ru<br>
 是什么、优点、缺点、适用情况、不适用情况
