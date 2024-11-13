@@ -46,12 +46,12 @@ https://github.com/zorazrw/awesome-tool-llm 基本范式<br>
 https://arxiv.org/abs/2405.17935 四个步骤 2个范式（是否反馈）<br>
 https://arxiv.org/abs/2304.08354 四个框架 分类<br>
 
-## 2.检索机制/选择机制
+## 2.检索机制/选择机制--多工具匹配任务
 https://arxiv.org/pdf/2203.05115<br>
 https://openreview.net/forum?id=ZTCxT2t2Ru<br>
 是什么、优点、缺点、适用情况、不适用情况
 
-## 3.推理机制/对模型的处理，如何生成好的响应
+## 3.推理机制--复杂任务/对模型的处理，如何生成好的响应
 ### 1）微调
 是什么、优点、缺点、适用情况、不适用情况
 ### 2）上下文学习
@@ -59,7 +59,7 @@ https://openreview.net/forum?id=ZTCxT2t2Ru<br>
 ### 3）tocken融入 预测工具
 是什么、优点、缺点、适用情况、不适用情况
 
-## 4.反馈机制
+## 4.执行环境与反馈机制--优化工具匹配任务
 是什么、优点、缺点、适用情况、不适用情况
 
 # 四，工具学习的评估
