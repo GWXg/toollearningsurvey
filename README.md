@@ -3,4 +3,4 @@
 
 <img width="725" height="359" alt="image" src="https://github.com/user-attachments/assets/6a190167-f3e3-4c63-a0c9-3dbbc47a5af7" />
 
-The summary tables for the survey are currently being prepared and will be uploaded shortly.
+The CSV-format summary tables for the survey are currently being prepared and will be uploaded shortly.
