@@ -1,8 +1,8 @@
 Level I Dimension,Level II Dimension,Quantitative Metrics,Definition,Notes
 Tool usage,Accuracy,Accuracy [66],Correct tool usage predictions / Total tool usage cases,Sensitive to data distribution
-,,Recall [66],Correctly identified tool-use cases / Total actual tool-use cases,High recall �� false positives
-,,Precision [66],Correct predicted tool-uses / Total predicted tool-uses,High precision �� miss tool needs
-,,F1 score [66],(2 �� Precision �� Recall) / (Precision + Recall),Balanced for imbalanced data
+,,Recall [66],Correctly identified tool-use cases / Total actual tool-use cases,High recall    false positives
+,,Precision [66],Correct predicted tool-uses / Total predicted tool-uses,High precision    miss tool needs
+,,F1 score [66],(2    Precision    Recall) / (Precision + Recall),Balanced for imbalanced data
 ,Tool selection,Correct Selection Rate [66],Correctly selected tools / Total selection cases,Ignores invocation order
 ,,Retrieval score [73],Correctly retrieved tool names / Total retrieval cases,Depends on tool library quality
 ,,Recall@K [12],Correct tools in top-K results / Total retrieval cases,K affects practicality
@@ -10,12 +10,12 @@ Tool usage,Accuracy,Accuracy [66],Correct tool usage predictions / Total tool us
 ,,NDCG@K [26],DCG of top-K results / DCG of ideal top-K ranking,Sensitive to label quality
 ,API generalization,AST accuracy [26],Correct APIs in unseen domains / Total API calls,Requires cross-domain testing
 ,,Hallucination rate [26],Factually wrong API calls / Total tool calls,Needs manual verification
-,Effectiveness,Tool reusability,Tool reuse instances / Total tool calls,High reuse �� less flexibility
+,Effectiveness,Tool reusability,Tool reuse instances / Total tool calls,High reuse    less flexibility
 ,,Computational cost,Resource consumption / Total tool calls,Hardware-dependent
 Task completion,Completion rate,Accurate answer matching [74],Outputs matching references / Total outputs,Requires high-quality references
 ,,Pass rate [26],Successfully completed tasks / Total tasks,May encourage brute-force
 ,,ROUGE-L [12],Structural similarity via LCS (generated vs. reference),Focuses on structural similarity
-,,F1 score [12],(2 �� answer precision �� answer recall) / (answer precision + answer recall),Suitable for classification
+,,F1 score [12],(2    answer precision    answer recall) / (answer precision + answer recall),Suitable for classification
 ,,Success Rate [27],Successful requests / Total requests,Requires clear success criteria
 ,Efficiency & Cost,Success-per-$,Successful tasks / Total cost (USD),Requires unified cost accounting
 ,,Latency-normalized Success,Successful tasks with latency / Total tasks,Critical for real-time
