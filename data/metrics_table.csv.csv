@@ -1,0 +1,25 @@
+Level I Dimension,Level II Dimension,Quantitative Metrics,Definition,Notes
+Tool usage,Tool awareness,Accuracy [70],Correct tool usage predictions / Total tool usage cases,Sensitive to data distribution
+,,Recall [70],Correctly identified tool-use cases / Total actual tool-use cases,High recall -> false positives
+,,Precision [70],Correct predicted tool-uses / Total predicted tool-uses,High precision -> miss tool needs
+,,F1 score [70],2 * (Precision * Recall) / (Precision + Recall),Balanced for imbalanced data
+,Tool selection,Correct Selection Rate [70],Correctly selected tools / Total selection cases,Ignores invocation order
+,,Retrieval score [77],Correctly retrieved tool names / Total retrieval cases,Depends on tool library quality
+,,Recall@K [11],Correct tools in top-K results / Total retrieval cases,K affects practicality
+,,COMP [86],Weighted exact-match indicators / Total evaluation weight,Ignores partial matches
+,,NDCG@K [5],DCG of top-K results / DCG of ideal top-K ranking,Sensitive to label quality
+,Tool generalization,AST accuracy [5],Correct APIs in unseen domains / Total API calls,Requires cross-domain testing
+,,Hallucination rate [5],Factually wrong calls / Total tool calls,Needs manual verification
+,Effectiveness,Tool reusability,Tool reuse instances / Total tool calls,High reuse -> less flexibility
+,,Computational cost,Resource consumption / Total tool calls,Hardware-dependent
+Task completion,Completion rate,Accurate answer matching [78],Outputs matching references / Total outputs,Requires high-quality references
+,,Pass rate [5],Successfully completed tasks / Total tasks,May encourage brute-force
+,,ROUGE-L [11],Structural similarity via LCS (generated vs. reference),Focuses on structural similarity
+,,F1 score [11],2 * (answer precision * answer recall) / (answer precision + answer recall),Suitable for classification
+,,Success Rate [27],Successful requests / Total requests,Requires clear success criteria
+,Efficiency & Cost,Success-per-$,Successful tasks / Total cost (USD),Requires unified cost accounting
+,,Latency-normalized Success,Successful tasks within latency / Total tasks,Critical for real-time
+,Solution quality,Win rate [5],Superior solutions / Total pairwise comparisons,Evaluator preference-dependent
+,,"Plan score [77, 79]",F1(ordered sem-matched action subsequence (pred/gold)),Needs manual scoring
+,Knowledge depth,Reason score [77],"Mean cosine sim (pred/gold reason steps, SBERT)",Hard to automate
+,,"Understand score [77, 79]","Mean cosine sim (pred/gold params, SBERT)",Needs domain expertise
